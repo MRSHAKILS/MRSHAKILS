@@ -4,9 +4,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mrshakils&label=Profile%20views&color=0e75b6&style=flat" alt="mrshakils" /> </p>
 
-- 🌱 Currently learning **C++**
+- 🌱 Currently learning **Web-Dev**
 
-- 🤝 Looking for help with **Machine Learning || Cyber Security**
+- 🤝 Looking for help with **Machine Learning || Cyber Security || AI**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
