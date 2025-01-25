@@ -6,7 +6,7 @@
 
 - 🌱 Currently learning **Web-Dev**
 
-- 🤝 Looking for help with **Machine Learning || Cyber Security || AI**
+- 🤝 Looking for help with **Machine Learning || Cyber Security || AI || App Development**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
