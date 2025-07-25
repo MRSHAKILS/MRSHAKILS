@@ -1,6 +1,6 @@
 <h1 align="center">Hi! 👋, This is Shakil Ahmed</h1>
 <h3 align="center">An Undergrad from NSU</h3>
-<img align="right" alt="Coding" width="400" src="https://www.pinterest.com/ideas/keyboard-typing-gif/925344991782/">
+<img align="right" alt="Coding" width="400" src="https://in.pinterest.com/pin/689613761689956279/">
 
 <p align="left"> <img src="https://pin.it/4VRyfnkOR" alt="mrshakils" /> </p>
 
