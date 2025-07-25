@@ -1,8 +1,8 @@
 <h1 align="center">Hi! 👋, This is Shakil Ahmed</h1>
 <h3 align="center">An Undergrad from NSU</h3>
-<img align="right" alt="Coding" width="400" src="https://in.pinterest.com/pin/689613761689956279/">
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/XOtotUZHZjoAAAAC/sad-anime.gif">
 
-<p align="left"> <img src="https://pin.it/4VRyfnkOR" alt="mrshakils" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mrshakils&label=Profile%20views&color=0e75b6&style=flat" alt="mrshakils" /> </p>
 
 - 🌱 Currently learning **Web-Dev**
 
