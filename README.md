@@ -4,9 +4,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mrshakils&label=Profile%20views&color=0e75b6&style=flat" alt="mrshakils" /> </p>
 
-- 🌱 Currently learning **Web-Dev**
+- 🌱 Currently going with **Backend**
 
-- 🤝 Looking for help with **Machine Learning || Cyber Security || AI || App Development**
+- 🤝 Looking for help with **Machine Learning || Automation || LLM**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
