@@ -1,4 +1,3 @@
-# .github/workflows/metrics.yml
 name: GitHub Metrics
 on:
   schedule:
@@ -13,14 +12,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
           token: ${{ secrets.GITHUB_TOKEN }}
-          # Your GitHub username
           user: mrshakils
-          # The output path for the SVG image
           output_action: "commit"
-          # The name of the file to be created
           filename: github-metrics.svg
-          # Base content
           template: classic
-          base: activity, community, repositories, metadata
+          base: activity, community, repositories
+          
+          plugin_isocalendar: yes
