@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
       - name: Generate Pac-Man Contribution Graph
         uses: maurodesouza/pacman-contribution-graph@main
         with:
