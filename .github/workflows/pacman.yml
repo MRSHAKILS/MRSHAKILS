@@ -18,10 +18,25 @@ jobs:
           username: mrshakils
           output_dir: output
 
+      - name: Update README with Latest Graph
+        run: |
+          cat > README.md << 'EOF'
+          ### 🕹️ My Pac-Man Contribution Graph
+
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph-dark.svg">
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">
+            <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">
+          </picture>
+
+          ### ✍️ Random Dev Quote
+          ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+          EOF
+
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "update pacman graph"
-          add: "output"
+          message: "update pacman graph and README"
+          add: "output README.md"
