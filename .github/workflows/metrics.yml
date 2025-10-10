@@ -1,0 +1,26 @@
+# .github/workflows/metrics.yml
+name: GitHub Metrics
+on:
+  schedule:
+    # Runs every day at midnight
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Your GitHub username
+          user: mrshakils
+          # The output path for the SVG image
+          output_action: "commit"
+          # The name of the file to be created
+          filename: github-metrics.svg
+          # Base content
+          template: classic
+          base: activity, community, repositories, metadata
