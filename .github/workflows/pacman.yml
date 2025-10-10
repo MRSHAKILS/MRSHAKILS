@@ -2,12 +2,18 @@ name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight UTC
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    # --- PERMISSIONS BLOCK ---
+   
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -15,24 +21,24 @@ jobs:
       - name: Generate Pac-Man Contribution Graph
         uses: maurodesouza/pacman-contribution-graph@main
         with:
-          username: mrshakils
+          username: ${{ github.repository_owner }} # Using this makes it more portable
           output_dir: output
 
       - name: Update Pac-Man Graph in README
         run: |
-          sed -i '/<!-- pacman-graph-start -->/,/<!-- pacman-graph-end -->/c\
-          <!-- pacman-graph-start -->\
+          sed -i '//,//c\
+          \
           <picture>\
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph-dark.svg">\
             <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">\
             <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">\
           </picture>\
-          <!-- pacman-graph-end -->' README.md
+          ' README.md
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "update pacman graph"
-          add: "output README.md"
+          message: 'docs: update pacman graph'
+          add: 'README.md output' # Explicitly add the README and the output directory
