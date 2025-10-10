@@ -1,9 +1,6 @@
-<h1 align="center">Greetings!</h1>
+<h1 align="center">Hey There!!</h1>
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/XOtotUZHZjoAAAAC/sad-anime.gif">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mrshakils&label=Profile%20views&color=0e75b6&style=flat" alt="mrshakils" /> </p>
-
-# 💫 About Me:
 🔭 I’m currently working on LaTex Converter, API's<br>👯 I’m looking to collaborate on open source projects<br>🤝 I’m looking for help with **Automation || LLM**<br>🌱 I’m currently learning Gen AI<br>💬 Ask me about Django, React....<br>⚡ Fun fact: my branches are more tangled than spaghetti.<br>🦦 Motto: “It works on my machine.” 
 
 <h3 align="left">Connect with me:</h3>
