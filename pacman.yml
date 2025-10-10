@@ -1,0 +1,24 @@
+name: Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
+  workflow_dispatch: # Lets you trigger it manually from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Pac-Man Contribution Graph
+        uses: maurodesouza/pacman-contribution-graph@main
+        with:
+          username: mrshakils        # 👈 Your GitHub username
+          output_dir: output          # The folder where SVGs will be saved
+
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "update pacman graph"
+          add: "output"
