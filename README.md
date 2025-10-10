@@ -17,12 +17,13 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mrshakils&theme=aura&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ### 🕹️ My Pac-Man Contribution Graph
-
+<!-- pacman-graph-start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mrshakils/mrshakils/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">
 </picture>
+<!-- pacman-graph-end -->
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
