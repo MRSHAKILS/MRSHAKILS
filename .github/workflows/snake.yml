@@ -1,11 +1,9 @@
-# .github/workflows/snake.yml
 name: Generate Snake Animation
 
 on:
   # Run this workflow every 12 hours
   schedule:
     - cron: '0 */12 * * *'
-  # Allow manually running this workflow
   workflow_dispatch:
 
 jobs:
@@ -21,18 +19,14 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          # Your GitHub username
           github_user_name: ${{ github.repository_owner }}
-
-          # Generate SVG files for both light and dark themes
+          color_snake: '#A277FF'
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
         with:
-          # The message for the commit
-          message: 'docs: generate snake animation'
-          # The directory to add the changes from
+          message: 'docs: update snake color'
           add: 'dist'
