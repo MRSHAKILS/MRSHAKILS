@@ -1,16 +1,17 @@
 name: Generate Pac-Man Contribution Graph
 
 on:
+  # This will run the workflow every day at midnight UTC
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight UTC
+    - cron: '0 0 * * *'
+  # This allows you to run the workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    # --- PERMISSIONS BLOCK ---
-   
+    # This gives the workflow permissions to push changes to your repository
     permissions:
       contents: write
 
@@ -21,7 +22,9 @@ jobs:
       - name: Generate Pac-Man Contribution Graph
         uses: maurodesouza/pacman-contribution-graph@main
         with:
-          username: ${{ github.repository_owner }} # Using this makes it more portable
+          # Your GitHub username
+          username: mrshakils
+          # Directory where the SVG files will be saved
           output_dir: output
 
       - name: Update Pac-Man Graph in README
@@ -40,5 +43,6 @@ jobs:
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: 'docs: update pacman graph'
-          add: 'README.md output' # Explicitly add the README and the output directory
+          message: 'docs: update pacman contribution graph'
+          # Add the updated README and the new output directory to the commit
+          add: 'README.md output'
