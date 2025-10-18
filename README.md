@@ -1,7 +1,11 @@
-<h1 align="center">Hey There!!</h1>
-<img align="right" alt="Coding" width="400" src="https://media.tenor.com/XOtotUZHZjoAAAAC/sad-anime.gif">
+<h1>Welcome!</h1>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=35&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Hey+there!+It's+Shakil+%F0%9F%91%8B;Web+Dev;" alt="Typing SVG" />
+</div>
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/3bTxZ4HdrysAAAAd/pixels-neon.gif">
 
-🔭 I’m currently working on LaTex Converter, API's<br>👯 I’m looking to collaborate on open source projects<br>🤝 I’m looking for help with **Automation || LLM**<br>🌱 I’m currently learning Gen AI<br>💬 Ask me about Django, React....<br>⚡ Fun fact: my branches are more tangled than spaghetti.<br>🦦 Motto: “It works on my machine.” 
+
+🔭 I’m currently working on LaTex Converter, API's<br>👯 Looking to collaborate on open source projects<br>🤝 Looking for help with **Automation || LLM**<br>🌱 Currently learning Gen AI<br>💬 Ask me about Django, React....<br>⚡ Fun fact: my branches are more tangled than spaghetti.<br>🦦 Motto: “It works on my machine.” 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
