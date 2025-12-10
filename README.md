@@ -5,7 +5,7 @@
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/3bTxZ4HdrysAAAAd/pixels-neon.gif">
 
 
-🔭 I’m currently working on LaTex Converter, API's, LLMs, AI Agents<br>👯 Looking to collaborate on open source projects<br>🤝 Looking for help with **Automation || LLM**<br>🌱 Currently learning Gen AI<br>💬 Ask me about Django, React....<br>⚡ Fun fact: my branches are more tangled than spaghetti.<br>🦦 Motto: “It works on my machine.” 
+🔭 I’m currently working on Research Assistance, API's, LLMs, AI Agents<br>👯 Looking to collaborate on open source projects<br>🤝 Looking for help with **Automation || LLM**<br>🌱 Currently learning Gen AI<br>💬 Ask me about Django, React....<br>⚡ Fun fact: my branches are more tangled than spaghetti.<br>🦦 Motto: “It works on my machine.” 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
