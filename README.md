@@ -32,7 +32,7 @@
   <img alt="github snake animation" src="dist/github-snake.svg" />
 </picture>
 
-<!-- pacman-graph-start
+<!-- pacman-graph-start -->
 
 <picture>
 
@@ -44,7 +44,7 @@
 
 </picture>
 
- pacman-graph-end -->
+<!-- pacman-graph-end -->
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
