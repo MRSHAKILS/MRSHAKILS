@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=35&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Hey+there!+It's+Shakil+Ahmed;" alt="Typing SVG" />
 </div>
 
-🔭 I’m currently working on Research Assistance, API's, LLMs, AI Agents<br>👯 Looking to collaborate on open source projects<br>🤝 Looking for help with **Automation || LLM**<br>🌱 Currently learning Gen AI<br>💬 Ask me about React, AI Agents....<br>⚡ Fun fact: my branches are more tangled than spaghetti.<br>🦦 Motto: “It works on my machine.” 
+🔭 I’m currently working on Automated Agricultural System, Quantum, RAG, Agentic Workflow<br>👯 Looking to collaborate on open source projects<br>🤝 Looking for help with **Automation || LLM**<br>🌱 Currently learning Gen AI<br>💬 Ask me about React, AI Agents....<br>⚡ Fun fact: my branches are more tangled than spaghetti.<br>🦦 Motto: “It works on my machine.” 
 
 
 # 💻 Tech Stack:
