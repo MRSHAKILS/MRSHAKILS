@@ -1,14 +1,16 @@
 name: GitHub Metrics
+
 on:
   schedule:
-    # Runs every day at midnight
-    - cron: '* */24 * * *'
+    - cron: '0 18 * * 5'  
   workflow_dispatch:
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -18,5 +20,4 @@ jobs:
           filename: github-metrics.svg
           template: classic
           base: activity, community, repositories
-          
           plugin_isocalendar: yes
