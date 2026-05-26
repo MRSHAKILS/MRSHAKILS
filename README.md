@@ -1,5 +1,5 @@
 <div align="center">
-  <img align="" alt="Coding" width="" src="https://media.tenor.com/3bTxZ4HdrysAAAAd/pixels-neon.gif">
+   <img alt="Coding" src="shaqgif.gif">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=35&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Hey+there!+It's+Shakil+Ahmed;" alt="Typing SVG" />
 </div>
 
